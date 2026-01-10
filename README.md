@@ -30,6 +30,21 @@ It uses a sophisticated timing mechanism with interpolated sub-second precision 
    - `WRITE_RPC_x`: URLs for sending transactions (Public or MEV-protected).
    - `READ_RPC_URL`: URL for monitoring chain state (e.g., Infura).
 
+## 🛠️ Installation
+
+Before compiling, you must have **Rust** installed.
+
+1. **Install Rustup** (The Rust installer):
+   - **Windows**: Download and run [rustup-init.exe](https://win.rustup.rs/).
+   - **Linux/Mac**: Run the following command:
+     ```bash
+     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+     ```
+2. **Update to the latest version** (Required for this bot):
+   ```bash
+   rustup update
+   ```
+
 ## Compilation
 
 To build the optimized release binary:
@@ -53,3 +68,8 @@ If this bot helps you win rewards and you'd like to support its development, don
 **Address**: `0x21AaBcE94c4e690BF0350EC0c26aE5F4fa8c9B5E`
 
 Good luck getting those flushes! 🚽💰
+
+## Support 💬
+
+If you have any questions or need help setting this up, join my Telegram chat:
+👉 **[https://t.me/drainerless](https://t.me/drainerless)**
