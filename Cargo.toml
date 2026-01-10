@@ -1,0 +1,15 @@
+[package]
+name = "aztec_sniper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Alloy: La librería moderna y rápida para Ethereum en Rust
+alloy = { version = "0.1.3", features = ["full", "node-bindings", "rpc-types-eth", "signer-local", "network"] }
+
+# Tokio: Runtime asíncrono
+tokio = { version = "1", features = ["full"] }
+
+# Manejo de variables de entorno y errores
+dotenv = "0.15"
+eyre = "0.6" # Para manejo de errores limpio
